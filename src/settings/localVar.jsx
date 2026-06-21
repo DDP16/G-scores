@@ -1,5 +1,2 @@
-export const LOCAL_EMAIL = "email";
-
-// http : 80
-// https: 443
-export const BE_ENPOINT = "https://mock.reactlms.com/";
+export const BE_ENPOINT = "http://localhost:3000";
+export const PUBLIC_ENPOINT = "";

@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Card({children, className = ""}) {
+export default function Card({children, className = "", onClick}) {
   return (
-    <div className={`bg-white rounded-xl shadow-md border border-gray-100 ${className}`}>
+    <div className={`rounded-xl shadow-md border border-gray-100 ${className}`} onClick={onClick}>
       {children}
     </div>
   )
